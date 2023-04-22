@@ -1,0 +1,28 @@
+{
+  "name": "adventjs-2022",
+  "version": "1.0.0",
+  "description": "A project with all the challenges at https://adventjs.dev/ tested and solved",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:1": "jest -i test/reto1.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codigocaballer/adventjs-2022.git"
+  },
+  "keywords": [
+    "codigocaballer",
+    "adventjs",
+    "javascript"
+  ],
+  "author": "codigocaballer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codigocaballer/adventjs-2022/issues"
+  },
+  "homepage": "https://github.com/codigocaballer/adventjs-2022#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
