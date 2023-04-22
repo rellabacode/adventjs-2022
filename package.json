@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:1": "jest -i test/reto1.test.js"
+    "test:1": "jest -i test/challenge1.test.js",
+    "test:2": "jest -i test/challenge2.test.js"
   },
   "repository": {
     "type": "git",
