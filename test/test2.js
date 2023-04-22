@@ -1,4 +1,4 @@
-const countHours = require('../src/challenge_2/challenge2.js');
+const countHours = require('../src/challenge2.js');
 
 describe("count extra hours suite", () => {
 
