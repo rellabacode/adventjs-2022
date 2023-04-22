@@ -1,4 +1,4 @@
-const wrapping = require('../src/challenge_1/challenge1.js');
+const wrapping = require('../src/challenge1.js');
 
 describe('wrap gifts suite', () => {
     test('empty gifts', () => {
