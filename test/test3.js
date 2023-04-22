@@ -1,4 +1,4 @@
-const distributeGifts = require('../src/challenge_3/challenge3.js');
+const distributeGifts = require('../src/challenge3.js');
 
 
 describe("count extra hours suite", () => {
