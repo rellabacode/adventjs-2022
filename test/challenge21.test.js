@@ -1,5 +1,7 @@
 const printTable = require('../src/challenge21.js');
 describe("", () => {
+    console.log = function() {}
+
     test("custom 1", () => {
         const result = printTable([
             {name: 'Game', quantity: 2},

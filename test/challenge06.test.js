@@ -1,5 +1,7 @@
 const createCube = require('../src/challenge6.js');
 describe("test building rubik cubes", () => {
+    console.log = function() {}
+
     test("1x1", () => {
         const cube = createCube(1);
         // console.log(cube);

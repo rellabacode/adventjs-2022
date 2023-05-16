@@ -5,21 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:1": "jest -i test/challenge1.test.js",
-    "test:2": "jest -i test/challenge2.test.js",
-    "test:3": "jest -i test/challenge3.test.js",
-    "test:4": "jest -i test/challenge4.test.js",
-    "test:5": "jest -i test/challenge5.test.js",
-    "test:6": "jest -i test/challenge6.test.js",
-    "test:7": "jest -i test/challenge7.test.js",
-    "test:8": "jest -i test/challenge8.test.js",
-    "test:9": "jest -i test/challenge9.test.js",
-    "test:10": "jest -i test/challenge10.test.js",
-    "test:11": "jest -i test/challenge11.test.js",
-    "test:12": "jest -i test/challenge12.test.js",
-    "test:13": "jest -i test/challenge13.test.js",
-    "test:14": "jest -i test/challenge14.test.js",
-    "test:15": "jest -i test/challenge15.test.js"
+    "test:1": "jest i test/challenge01.test.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +23,7 @@
   },
   "homepage": "https://github.com/codigocaballer/adventjs-2022#readme",
   "devDependencies": {
+    "@types/jest": "^29.5.1",
     "jest": "^29.5.0"
   }
 }
