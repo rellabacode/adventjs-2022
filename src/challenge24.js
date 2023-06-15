@@ -18,10 +18,7 @@ module.exports = function canExit(maze) {
         return coordA[0] === coordB[0] && coordA[1] === coordB[1];
     };
 
-    if (coordsEquals(queue[0], DESTINATION))
-        return true;
-
-    while (queue.length > 0) {
+    while (queue[0] !== undefined) {
         let cell = queue.splice(0, 1).pop();
 
         const movs = [];
