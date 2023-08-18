@@ -20,6 +20,7 @@
     "test:13": "jest i test/challenge13.test.js",
     "test:14": "jest i test/challenge14.test.js",
     "test:15": "jest i test/challenge15.test.js",
+    "test:16": "jest i test/challenge16.test.js",
     "test:17": "jest i test/challenge17.test.js",
     "test:18": "jest i test/challenge18.test.js",
     "test:19": "jest i test/challenge19.test.js",
